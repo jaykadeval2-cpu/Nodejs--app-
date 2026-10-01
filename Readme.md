@@ -25,8 +25,8 @@ docker run -p 3000:3000 nodejs-app
 ```
 
 ## Screenshots
-![Pipeline success](Screenshot/pipeline.png)
-![Docker Hub](Screenshot/dockerhub.png)
+![Pipeline success](Screenshot/dockerhub.png)
+![Docker Hub](Screenshot/pipeline.png)
 
 ## Issue I fixed
 The Docker login first failed with "Username and password required" because the secrets had the wrong names. Using the exact names the workflow expects fixed it.
