@@ -20,7 +20,7 @@ GitHub, GitHub Actions, Node.js (Express, Jest), Docker, Docker Hub
 npm install
 npm test
 npm start
-docker build -t nodejs-demo-app .
+docker build -t nodejs-app .
 docker run -p 3000:3000 nodejs-app
 ```
 
