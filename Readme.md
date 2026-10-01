@@ -21,12 +21,12 @@ npm install
 npm test
 npm start
 docker build -t nodejs-demo-app .
-docker run -p 3000:3000 nodejs-demo-app
+docker run -p 3000:3000 nodejs-app
 ```
 
 ## Screenshots
-![Pipeline success](screenshots/pipeline.png)
-![Docker Hub](screenshots/dockerhub.png)
+![Pipeline success](Screenshot/pipeline.png)
+![Docker Hub](Screenshot/dockerhub.png)
 
 ## Issue I fixed
 The Docker login first failed with "Username and password required" because the secrets had the wrong names. Using the exact names the workflow expects fixed it.
